@@ -44,6 +44,12 @@ All changes in integration will soon be promoted to staging -> production in lin
     1. Inform the team of the hotfix. Team will decide if hotfix is needed and safe.
     2. Branch from the commit hash currenlty deployed in staging.
     3. Tag the commit. Deploy to staging. All tests must passed (DCP tests in staging, ingest tests, unit tests)
-    5. Make a hotfix release note in https://drive.google.com/drive/u/0/folders/16BU1y3n1SD7D5Q1NNk0YUgs4NG7ArWiu
+    5. Make a hotfix release note in DCP Release Notes directory
     6. Inform DCP Release manager(currently Rhian) 
     7. Deploy to prod. Make sure all tests
+    
+
+## Links
+* [DCP Integration Tests](https://allspark.dev.data.humancellatlas.org/HumanCellAtlas/dcp?nav_source=navbar)
+* [Ingest Integration Tests](https://allspark.dev.data.humancellatlas.org/HumanCellAtlas/ingest-integration-tests?nav_source=navbar)
+* [DCP Release Notes](https://drive.google.com/drive/u/0/folders/16BU1y3n1SD7D5Q1NNk0YUgs4NG7ArWiu)
